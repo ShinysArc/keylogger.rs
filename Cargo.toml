@@ -1,8 +1,10 @@
 [package]
-name = "keylogger"
+name = "ubuntu-touch-malware"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rusqlite = "0.24.2"
+dirs = "3.0.2"
